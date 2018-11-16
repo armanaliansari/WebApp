@@ -30,7 +30,10 @@ public class login_junit {
 	{
 		
 		
-		MockHttpServletRequest request = new MockHttpServletRequest();
+		MockHttpServletRequest
+			
+			
+			request = new MockHttpServletRequest();
 		MockHttpServletResponse response = new MockHttpServletResponse(); response.setContentType("text/html;charset=UTF-8");
 		request.addParameter("username", "guest");
 		request.addParameter("userpassword", "guest");
